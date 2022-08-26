@@ -1,0 +1,100 @@
+body {
+  background: #1C1C1C;
+}
+h1 {
+  text-align: center;
+  color: #FFFFFF;
+}
+h2 {
+  color: #FFFFFF;
+}
+h3 {
+  color: #0F0F0F;
+}
+h4 {
+  color: #1C1C1C;
+}
+.caixa1 {
+    position: absolute;
+    background: #0D0D0D;
+    color: #803434;
+    border-color: #803434;
+    border-width: 5px;
+    border-style: outset;
+    width: 200px;
+    height: 200px;
+    right: 0;
+    bottom: 0;
+}
+
+.caixa2 {
+    position: absolute;
+    background: #212121;
+    color: #803434;
+    border-color: #803434;
+    border-width: 5px;
+    border-style: outset;
+    width: 200px;
+    height: 200px;
+    right: 210px;
+    bottom: 0;
+}
+
+.caixa3 {
+    position: absolute;
+    background: #171717;
+    color: #803434;
+    border-color: #803434;
+    border-width: 5px;
+    border-style: outset;
+    width: 200px;
+    height: 200px;
+    right: 0;
+    bottom: 210px;
+}
+.menuPrincipal {
+   position: absolute;
+   background: #0F0F0F;
+   width: 100%;
+   height: 45px;
+   top: 0;
+   left: 0;
+   color: rgb(255, 255, 255);
+}
+nav ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: 0;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+}
+li a:hover {
+  background: #803434;
+  color: black;
+}
+#aviao {
+   width: 20%;
+}
+.caixaAviao {
+   position: absolute;
+   top: 50px;
+   left: 0;
+   width: 90%;
+   height: 150px;
+   background:rgb(218, 219, 150);
+   margin: 20px;
+   border-color: #ED0A02;
+   border-width: 20px;
+   border-style: outset;
+   padding: 20px;
+}
